@@ -1,0 +1,38 @@
+<div class = "navbar">
+<h1>Dream Factory Inc.</h1>
+  <a href = "#About">ABOUT</a>
+  <a href = "#Help">WANT TO HELP?</a>
+  <a href = "#Events">EVENTS</a>
+  <a href = "#Contact">CONTACT US</a>
+  <a href = "#Donate">DONATE</a>
+</div>
+
+
+<form action="/action_page.php" class="form-container">
+    <h2>Donate</h2>
+    <p>The Dream Factory works its hardest to grant the wishes of children across the country. We welcome all kinds of supports, including donations! Your donation is tax-deductible as well. </p>
+​   <div>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+​   </div>
+    <div>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+    <div>
+	    <label for="dnt"><b>Donation</b></label>
+      <input type="number" placeholder="Enter Donation" name="dnt" min="0" required>
+    </div>
+    <div>
+	    <label for="name"><b>Child Name</b></label>
+       <input type="text" placeholder="Enter Child Name" name="child-name" required>
+​    </div>
+    <label for="psw"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="addr" required>
+	
+	<label for="dnt"><b>Payment</b></label>
+    <input type="number" placeholder="Enter Payment" name="pymt" min="0" required>
+​
+    <button type="submit" class="btn">Donate</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
